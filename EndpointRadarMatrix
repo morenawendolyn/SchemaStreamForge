@@ -1,0 +1,23 @@
+
+---
+
+### **2. 32_EndpointRadarMatrix**  
+**Description:**  
+Scans multiple endpoints and visualizes health, uptime, and latency in a radar-style grid.
+
+#### **README.md**
+```markdown
+# EndpointRadarMatrix - Multi-API Health Visualizer
+
+EndpointRadarMatrix tracks endpoint availability and responsiveness, useful for monitoring API networks.
+
+## Features
+- Status + latency output  
+- JSON/CSV report export  
+- Retry + timeout logic  
+
+## Usage
+```bash
+git clone https://github.com/your-username/32_EndpointRadarMatrix.git
+cd 32_EndpointRadarMatrix
+python monitor.py
