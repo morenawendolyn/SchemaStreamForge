@@ -1,0 +1,23 @@
+
+---
+
+### **3. 32_LogStackTracer**  
+**Description:**  
+Analyzes logs to detect high-frequency message stacks and bursty behavior over time.
+
+#### **README.md**
+```markdown
+# LogStackTracer - High-Frequency Log Pattern Analyzer
+
+LogStackTracer identifies burst regions, repetition clusters, and spike conditions in your logs.
+
+## Features
+- Timestamp-based clustering  
+- Pattern summarization  
+- CLI with filters  
+
+## Usage
+```bash
+git clone https://github.com/your-username/32_LogStackTracer.git
+cd 32_LogStackTracer
+python analyze.py
